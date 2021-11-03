@@ -20,8 +20,8 @@ const getJSON = (URL = '') => fetch(URL).then((res) => res.json())
 const findArtist = (artist) => getJSON(artistURL + fixString(artist))
 
 const findLyrics = (artist, songTitle) => getJSON(songTitleURL + fixString(artist) + '/' + fixString(songTitle))
-	.then(({ lyrics = '' }) => lyrics.length && fs.writeFileSync(pathOfMusic(artist, songTitle)), lyrics)
-	.catch((err) => console.error({ artist, songTitle, err }))
+  .then(({ lyrics = '' }) => fs.writeFileSync(pathOfMusic(artist, songTitle), lyrics))
+  .catch((err) => console.error({ artist, songTitle, err }))
 
 // RUN
 fs.mkdir(pathOfArtist(artist), { recursive: true }, () => findArtist(artist).then(({ data }) => Promise.all(data.map(({ title }) => findLyrics(artist, title)))))
