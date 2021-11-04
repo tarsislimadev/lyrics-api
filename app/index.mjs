@@ -8,7 +8,7 @@ const artistURL = 'https://api.lyrics.ovh/suggest/'
 const songTitleURL = 'https://api.lyrics.ovh/v1/'
 
 // CONSTANTS
-const artist = 'Luísa Sonza'
+const artist = '' // FIXME
 
 // HELPERS
 const fixString = (str = '') => str.replace(/ /ig, '+')
