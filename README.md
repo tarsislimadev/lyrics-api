@@ -1,6 +1,6 @@
 # Lyrics
 
-Download lyrics of Dezzer API.
+Download lyrics of Deezer API.
 
 ## License
 
