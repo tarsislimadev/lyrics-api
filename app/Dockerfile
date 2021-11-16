@@ -1,6 +1,6 @@
 FROM node:lts
 
-# USER node
+USER node
 
 WORKDIR /app
 
