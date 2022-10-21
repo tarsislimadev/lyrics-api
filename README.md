@@ -8,6 +8,10 @@ Download lyrics of Deezer API.
 * [Node.js](https://nodejs.org/en/)
 * [Docker](https://www.docker.com/)
 
+## How to
+
+TODO
+
 ## License
 
 [MIT](LICENSE)
