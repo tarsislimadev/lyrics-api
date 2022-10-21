@@ -1,9 +1,9 @@
-FROM node:lts
-
-USER node
+FROM node:lts-alpine
 
 WORKDIR /app
 
 COPY . .
 
-CMD npm ci && node index.mjs
+# RUN npm ci
+
+CMD npm start
