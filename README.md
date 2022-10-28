@@ -1,6 +1,6 @@
 # Lyrics
 
-Download lyrics of Deezer API.
+Baixe letras de música a partir da Deezer API.
 
 ## Stack
 
@@ -14,4 +14,4 @@ TODO
 
 ## License
 
-[MIT](LICENSE)
+[MIT](./LICENSE)
