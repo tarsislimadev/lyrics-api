@@ -10,10 +10,6 @@ Baixe letras de música a partir da Deezer API.
 
 * [Docker](https://www.docker.com/)
 
-## How to
-
-TODO
-
 ## License
 
 [MIT](./LICENSE)
