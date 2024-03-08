@@ -1,23 +1,15 @@
-# Lyrics
+# [Lyrics](api.lyrics.ovh)
 
-Baixe letras de música a partir da Deezer API.
+To get data from Deezer API (in api.lyrics.ovh)
 
-## Stack
+### Development
 
-* [ESLINT](https://eslint.org/)
+Install [Docker (+ docker compose)](https://www.docker.com/)
 
-* [Node.js](https://nodejs.org/en/)
-
-* [Docker](https://www.docker.com/)
-
-### Em ambiente de desenvolvimento
-
-Instalar [Docker (+ docker compose)](https://www.docker.com/)
-
-Executar:
+Run:
 
 ```sh
-bash env/up.sh 
+sh ./env/up.sh 
 ```
 
 ## License
